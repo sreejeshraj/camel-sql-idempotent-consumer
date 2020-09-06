@@ -1,0 +1,182 @@
+2020-09-06 11:08:00.610 IST [58652] LOG:  starting PostgreSQL 12.4, compiled by Visual C++ build 1914, 64-bit
+2020-09-06 11:08:00.641 IST [58652] LOG:  listening on IPv6 address "::1", port 5432
+2020-09-06 11:08:00.643 IST [58652] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-09-06 11:08:00.983 IST [100812] LOG:  database system was interrupted; last known up at 2020-08-27 22:48:13 IST
+2020-09-06 11:08:08.083 IST [100812] LOG:  database system was not properly shut down; automatic recovery in progress
+2020-09-06 11:08:08.094 IST [100812] LOG:  invalid record length at 0/1650DE0: wanted 24, got 0
+2020-09-06 11:08:08.095 IST [100812] LOG:  redo is not required
+2020-09-06 11:08:08.583 IST [58652] LOG:  database system is ready to accept connections
+2020-09-06 11:08:41.632 IST [58652] LOG:  received fast shutdown request
+2020-09-06 11:08:41.638 IST [58652] LOG:  aborting any active transactions
+2020-09-06 11:08:41.652 IST [58652] LOG:  background worker "logical replication launcher" (PID 43772) exited with exit code 1
+2020-09-06 11:08:41.681 IST [101120] LOG:  shutting down
+2020-09-06 11:08:41.753 IST [58652] LOG:  database system is shut down
+2020-09-06 11:08:46.747 IST [65940] LOG:  starting PostgreSQL 12.4, compiled by Visual C++ build 1914, 64-bit
+2020-09-06 11:08:46.762 IST [65940] LOG:  listening on IPv6 address "::1", port 5432
+2020-09-06 11:08:46.763 IST [65940] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-09-06 11:08:46.996 IST [84876] LOG:  database system was shut down at 2020-09-06 11:08:41 IST
+2020-09-06 11:08:47.329 IST [65940] LOG:  database system is ready to accept connections
+2020-09-06 11:26:46.739 IST [73744] ERROR:  syntax error at or near ")" at character 84
+2020-09-06 11:26:46.739 IST [73744] STATEMENT:  CREATE TABLE camel.person (
+		id serial PRIMARY KEY,
+		name VARCHAR(30) NOT NULL,
+	)
+2020-09-06 11:27:14.661 IST [73744] ERROR:  syntax error at or near ")" at character 84
+2020-09-06 11:27:14.661 IST [73744] STATEMENT:  CREATE TABLE camel.person (
+		id serial PRIMARY KEY,
+		name VARCHAR(30) NOT NULL,
+	)
+2020-09-06 11:53:04.405 IST [65940] LOG:  received fast shutdown request
+2020-09-06 11:53:04.425 IST [65940] LOG:  aborting any active transactions
+2020-09-06 11:53:04.428 IST [73744] FATAL:  terminating connection due to administrator command
+2020-09-06 11:53:04.436 IST [87052] ERROR:  canceling statement due to user request
+2020-09-06 11:53:04.436 IST [9696] FATAL:  terminating connection due to administrator command
+2020-09-06 11:53:04.468 IST [71772] FATAL:  terminating connection due to administrator command
+2020-09-06 11:53:04.478 IST [65940] LOG:  background worker "logical replication launcher" (PID 87052) exited with exit code 1
+2020-09-06 11:53:04.554 IST [52116] LOG:  shutting down
+2020-09-06 11:53:04.662 IST [65940] LOG:  database system is shut down
+2020-09-06 12:10:47.745 IST [95912] LOG:  starting PostgreSQL 12.4, compiled by Visual C++ build 1914, 64-bit
+2020-09-06 12:10:47.766 IST [95912] LOG:  listening on IPv6 address "::1", port 5432
+2020-09-06 12:10:47.767 IST [95912] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-09-06 12:10:48.011 IST [16972] LOG:  database system was shut down at 2020-09-06 11:53:04 IST
+2020-09-06 12:10:48.373 IST [95912] LOG:  database system is ready to accept connections
+2020-09-06 12:11:49.275 IST [95912] LOG:  received fast shutdown request
+2020-09-06 12:11:49.294 IST [95912] LOG:  aborting any active transactions
+2020-09-06 12:11:49.309 IST [68288] ERROR:  canceling statement due to user request
+2020-09-06 12:11:49.319 IST [95912] LOG:  background worker "logical replication launcher" (PID 68288) exited with exit code 1
+2020-09-06 12:11:49.352 IST [102344] LOG:  shutting down
+2020-09-06 12:11:49.479 IST [95912] LOG:  database system is shut down
+2020-09-06 12:20:49.223 IST [23216] LOG:  starting PostgreSQL 12.4, compiled by Visual C++ build 1914, 64-bit
+2020-09-06 12:20:49.239 IST [23216] LOG:  listening on IPv6 address "::1", port 5432
+2020-09-06 12:20:49.240 IST [23216] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-09-06 12:20:49.505 IST [29568] LOG:  database system was shut down at 2020-09-06 12:11:49 IST
+2020-09-06 12:20:49.901 IST [23216] LOG:  database system is ready to accept connections
+2020-09-06 12:24:59.344 IST [46336] ERROR:  relation "customer" does not exist at character 15
+2020-09-06 12:24:59.344 IST [46336] STATEMENT:  SELECT * FROM customer
+2020-09-06 12:25:07.792 IST [46336] ERROR:  relation "customer" does not exist at character 15
+2020-09-06 12:25:07.792 IST [46336] STATEMENT:  SELECT * FROM customer
+2020-09-06 12:25:10.275 IST [23216] LOG:  received fast shutdown request
+2020-09-06 12:25:10.289 IST [23216] LOG:  aborting any active transactions
+2020-09-06 12:25:10.307 IST [46336] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.334 IST [2764] FATAL:  terminating connection due to administrator command
+2020-09-06 12:25:10.337 IST [31832] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.340 IST [17516] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.358 IST [74888] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.367 IST [78832] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.371 IST [99268] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.405 IST [74844] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.411 IST [86032] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.411 IST [13432] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.419 IST [69212] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.427 IST [22620] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.432 IST [19276] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.434 IST [86388] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.440 IST [44444] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.448 IST [95136] ERROR:  canceling statement due to user request
+2020-09-06 12:25:10.454 IST [29372] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.463 IST [9280] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.473 IST [10672] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.478 IST [20384] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.503 IST [80052] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:25:10.534 IST [69512] FATAL:  terminating connection due to administrator command
+2020-09-06 12:25:10.547 IST [23216] LOG:  background worker "logical replication launcher" (PID 95136) exited with exit code 1
+2020-09-06 12:25:10.558 IST [63620] FATAL:  terminating connection due to administrator command
+2020-09-06 12:25:10.561 IST [83972] FATAL:  terminating connection due to administrator command
+2020-09-06 12:25:10.637 IST [87204] LOG:  shutting down
+2020-09-06 12:25:10.772 IST [23216] LOG:  database system is shut down
+2020-09-06 12:35:19.140 IST [7788] LOG:  starting PostgreSQL 12.4, compiled by Visual C++ build 1914, 64-bit
+2020-09-06 12:35:19.157 IST [7788] LOG:  listening on IPv6 address "::1", port 5432
+2020-09-06 12:35:19.158 IST [7788] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-09-06 12:35:19.381 IST [64472] LOG:  database system was shut down at 2020-09-06 12:25:10 IST
+2020-09-06 12:35:19.777 IST [7788] LOG:  database system is ready to accept connections
+2020-09-06 12:40:23.283 IST [7788] LOG:  received fast shutdown request
+2020-09-06 12:40:23.299 IST [7788] LOG:  aborting any active transactions
+2020-09-06 12:40:23.343 IST [59520] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.381 IST [72700] FATAL:  terminating connection due to administrator command
+2020-09-06 12:40:23.382 IST [94132] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.383 IST [94132] FATAL:  terminating connection due to administrator command
+2020-09-06 12:40:23.383 IST [94132] LOG:  could not send data to client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.385 IST [72700] LOG:  could not send data to client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.405 IST [21296] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.411 IST [60116] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.412 IST [64900] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.416 IST [80908] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.425 IST [10592] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.433 IST [42032] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.435 IST [92896] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.440 IST [102968] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.441 IST [92588] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.449 IST [75900] ERROR:  canceling statement due to user request
+2020-09-06 12:40:23.452 IST [13288] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.467 IST [65112] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.469 IST [74580] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.475 IST [31408] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.477 IST [45972] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.461 IST [14356] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.503 IST [72260] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.507 IST [7476] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2020-09-06 12:40:23.542 IST [98064] FATAL:  terminating connection due to administrator command
+2020-09-06 12:40:23.551 IST [7788] LOG:  background worker "logical replication launcher" (PID 75900) exited with exit code 1
+2020-09-06 12:40:23.563 IST [99776] FATAL:  terminating connection due to administrator command
+2020-09-06 12:40:23.569 IST [60852] FATAL:  terminating connection due to administrator command
+2020-09-06 12:40:23.748 IST [58212] LOG:  shutting down
+2020-09-06 12:40:23.844 IST [7788] LOG:  database system is shut down
+2020-09-06 12:51:22.725 IST [86908] LOG:  starting PostgreSQL 12.4, compiled by Visual C++ build 1914, 64-bit
+2020-09-06 12:51:22.742 IST [86908] LOG:  listening on IPv6 address "::1", port 5432
+2020-09-06 12:51:22.743 IST [86908] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-09-06 12:51:22.968 IST [22288] LOG:  database system was shut down at 2020-09-06 12:40:23 IST
+2020-09-06 12:51:23.302 IST [86908] LOG:  database system is ready to accept connections
+2020-09-06 12:58:15.323 IST [86908] LOG:  received fast shutdown request
+2020-09-06 12:58:15.365 IST [86908] LOG:  aborting any active transactions
+2020-09-06 12:58:15.385 IST [29484] ERROR:  canceling statement due to user request
+2020-09-06 12:58:15.414 IST [100044] FATAL:  terminating connection due to administrator command
+2020-09-06 12:58:15.428 IST [4044] FATAL:  terminating connection due to administrator command
+2020-09-06 12:58:15.453 IST [81736] FATAL:  terminating connection due to administrator command
+2020-09-06 12:58:15.467 IST [93800] FATAL:  terminating connection due to administrator command
+2020-09-06 12:58:15.470 IST [50572] FATAL:  terminating connection due to administrator command
+2020-09-06 12:58:15.557 IST [86908] LOG:  background worker "logical replication launcher" (PID 29484) exited with exit code 1
+2020-09-06 12:58:15.571 IST [14788] FATAL:  terminating connection due to administrator command
+2020-09-06 12:58:15.573 IST [52244] FATAL:  terminating connection due to administrator command
+2020-09-06 12:58:15.600 IST [28452] FATAL:  terminating connection due to administrator command
+2020-09-06 12:58:15.651 IST [42608] LOG:  shutting down
+2020-09-06 12:58:15.733 IST [86908] LOG:  database system is shut down
