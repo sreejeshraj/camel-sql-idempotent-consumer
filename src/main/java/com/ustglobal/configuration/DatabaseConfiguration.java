@@ -37,7 +37,9 @@ public class DatabaseConfiguration {
 	@Bean
 	public IdempotentRepository idempotentRepository()
 	{
-		return new JdbcMessageIdRepository(primaryDataSource(),interfaceName);
+		JdbcMessageIdRepository jdbcMessageIdRepository = new JdbcMessageIdRepository(primaryDataSource(),interfaceName);
+		//jdbcMessageIdRepository.
+		return jdbcMessageIdRepository;
 	}
 
 }
