@@ -38,7 +38,7 @@ public class DatabaseConfiguration {
 	public IdempotentRepository idempotentRepository()
 	{
 		JdbcMessageIdRepository jdbcMessageIdRepository = new JdbcMessageIdRepository(primaryDataSource(),interfaceName);
-		//jdbcMessageIdRepository.
+//		jdbcMessageIdRepository.setInsertString();
 		return jdbcMessageIdRepository;
 	}
 

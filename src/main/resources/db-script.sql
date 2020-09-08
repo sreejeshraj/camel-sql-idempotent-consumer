@@ -10,7 +10,7 @@ INSERT INTO camel.person(name) VALUES('Hima');
 INSERT INTO camel.person(name) VALUES('John');
 INSERT INTO camel.person(name) VALUES('Seema');
 
-
+person
 SELECT version();
 
 
@@ -34,3 +34,15 @@ CREATE TABLE CAMEL_MESSAGEPROCESSED (
 	createdAt TIMESTAMP,
 	UNIQUE(processorName, messageId)
 );
+
+SELECT * FROM camel.person;
+
+SELECT * FROM test.customer;
+
+
+SELECT * FROM camel_messageprocessed;
+camel_messageprocessed
+
+INSERT INTO test.customer(name) VALUES('Anish');
+
+SELECT 1 FROM CAMEL_MESSAGEPROCESSED WHERE 1 = 0;

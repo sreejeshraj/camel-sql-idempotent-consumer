@@ -15,6 +15,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.sql.DataSource;
+import java.util.ArrayList;
 
 @Component
 @ConfigurationProperties(prefix = "camel-demo-route")
@@ -77,6 +78,8 @@ public class CamelIdempotentRoute extends RouteBuilder {
 		
 		
 		// @formatter:on
+
+
 
 	}
 
